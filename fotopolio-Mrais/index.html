@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Digital - Muhammad Rais</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MR.</div>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">Tentang</a>
+      <a href="#">Keahlian</a>
+      <a href="#">Proyek</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Profil Header -->
+    <div class="profile-header">
+      <div class="profile-card">
+        <img src="https://i.ibb.co/8JqZqK1/foto-mu.jpg" alt="Muhammad Rais" class="profile-photo">
+        <h1>Halo, Saya<br><span class="name">Muhammad Rais</span></h1>
+        <p class="tag">Mahasiswa Teknik Informatika • Ketertarikan Teknologi & Web Development</p>
+        <p class="quote">
+          “Terus belajar, terus berkembang, menuju versi terbaik diri sendiri.”
+        </p>
+        <div class="profile-buttons">
+          <button id="btnProfile" class="btn-blue">Lihat Profil</button>
+          <button id="btnContact" class="btn-outline">Hubungi Saya</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="section about">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah Muhammad Rais, mahasiswa semester 5 Jurusan Teknik Informatika di Universitas Jabal Ghafur.<br>Saya memiliki ketertarikan terhadap perkembangan teknologi informasi dan dunia pemrograman.</p>
+      <div class="bio-grid">
+        <div>Biodata</div>
+        <div>Nama : Muhammad Rais</div>
+        <div>NIM : 2405111239</div>
+        <div>Jurusan : Teknik Informatika</div>
+        <div>Universitas : Jabal Ghafur</div>
+        <div>Semester : 5</div>
+        <div>Hobi : Ternak Burung</div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section skills">
+      <h2>Keahlian Saya</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">HTML</div>
+          <h3>HTML</h3>
+          <div class="progress-bar"><div style="width: 85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">CSS</div>
+          <h3>CSS</h3>
+          <div class="progress-bar"><div style="width: 80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">JavaScript</div>
+          <h3>JavaScript</h3>
+          <div class="progress-bar"><div style="width: 75%"></div></div>
+        </div>
+        <!-- Tambah skill lain -->
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section projects">
+      <h2>Proyek & Aktivitas</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://picsum.photos/id/1015/600/400" alt="Profil Digital">
+          <h3>Website Profil Digital</h3>
+          <p>Website profil digital yang dibuat untuk memperkenalkan identitas, pendidikan, keahlian, dan aktivitas mahasiswa.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+        </div>
+        <div class="project-card">
+          <img src="https://picsum.photos/id/201/600/400" alt="Project">
+          <h3>Proyek Kuliah</h3>
+          <p>Mengerjakan berbagai tugas dan proyek kuliah yang berhubungan dengan pemrograman.</p>
+          <span class="tech">RPL • Programming</span>
+        </div>
+        <div class="project-card">
+          <img src="https://picsum.photos/id/870/600/400" alt="Project">
+          <h3>Pengembangan Diri</h3>
+          <p>Terus belajar dan mengembangkan kemampuan dalam bidang teknologi serta mencoba berbagai hal baru.</p>
+          <span class="tech">Learning • Technology</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h2>Mari Terhubung</h2>
+      <p>Terima kasih telah mengunjungi profil digital saya.</p>
+      <div class="contact-grid">
+        <div><strong>Nama</strong><br>Muhammad Rais</div>
+        <div><strong>Universitas</strong><br>Jabal Ghafur</div>
+        <div><strong>Jurusan</strong><br>Teknik Informatika</div>
+        <div><strong>Hobi</strong><br>Ternak Burung</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Muhammad Rais. Profil Digital Mahasiswa.<br>
+    Semangat • Belajar • Berkarya
+  </footer>
+
+  <!-- Modal -->
+  <div id="modalContact" class="modal">
+    <div class="modal-content">
+      <h3>Hubungi Saya</h3>
+      <p>Terima kasih telah mengunjungi profil digital saya.</p>
+      <button id="closeModal" class="btn-outline">Tutup</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
